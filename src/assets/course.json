@@ -1,0 +1,169 @@
+[
+    {
+        "userId": 123,
+        "userName": "John Smith",
+        "userEmail": "john-smith@gmail.com",
+        "courses": [
+            {
+                "courseId": 1,
+                "courseName": "Angular Beginner Crash Course",
+                "startDate": "12/06/2022",
+                "endDate": "12/06/2022",
+                "courseDescription": "Angular beginner crash course will teach you about the fundamentals of angular.",
+                "courseRating": 4,
+                "courseRatingValues": [4],
+                "courseStatus": "Pending",
+                "activities": [
+                    {
+                        "activityId": 1,
+                        "activityName": "Introduction to Angular",
+                        "activityDescription": "Introduction to angular explains about the history of angular and the contents we are going to see.",
+                        "activityType": "pdf",
+                        "activityStatus": "Pending"
+                    },
+                    {
+                        "activityId": 2,
+                        "activityName": "Building blocks of Angular",
+                        "activityDescription": "Explains about the components, services, modules, directives",
+                        "activityType": "html",
+                        "activityStatus": "Pending"
+                    },
+                    {
+                        "activityId": 3,
+                        "activityName": "Introduction to Angular",
+                        "activityDescription": "Introduction to angular explains about the history of angular and the contents we are going to see.",
+                        "activityType": "video",
+                        "activityStatus": "Pending"
+                    },
+                    {
+                        "activityId": 4,
+                        "activityName": "Building blocks of Angular",
+                        "activityDescription": "Explains about the components, services, modules, directives",
+                        "activityType": "pdf",
+                        "activityStatus": "Pending"
+                    }
+                ]
+            },
+            {
+                "courseId": 2,
+                "courseName": "Javascript Advanced Course",
+                "startDate": "20/07/2022",
+                "endDate": "31/07/2022",
+                "courseDescription": "Advanced Javascript will guide you through the advanced concepts of JavaScript",
+                "courseRating": 5,
+                "courseRatingValues": [5],
+                "courseStatus": "Pending",
+                "activities": [
+                    {
+                        "activityId": 1,
+                        "activityName": "Introduction to Javascript",
+                        "activityDescription": "Introduction to Javascript explains about the history of Javascript and the contents we are going to see.",
+                        "activityType": "pdf",
+                        "activityStatus": "Pending"
+                    },
+                    {
+                        "activityId": 2,
+                        "activityName": "Building blocks of Javascript",
+                        "activityDescription": "Explains about the building blocks of javascript",
+                        "activityType": "html",
+                        "activityStatus": "Pending"
+                    },
+                    {
+                        "activityId": 3,
+                        "activityName": "Introduction to Javascript",
+                        "activityDescription": "Introduction to Javascript explains about the history of Javascript and the contents we are going to see.",
+                        "activityType": "video",
+                        "activityStatus": "Pending"
+                    },
+                    {
+                        "activityId": 4,
+                        "activityName": "Building blocks of Javascript",
+                        "activityDescription": "Explains about the building blocks of javascript",
+                        "activityType": "pdf",
+                        "activityStatus": "Pending"
+                    }
+                ]
+            },
+            {
+                "courseId": 3,
+                "courseName": "HTML5 Basics",
+                "startDate": "17/06/2022",
+                "endDate": "25/06/2022",
+                "courseDescription": "HTML5 basics will explain you about the new elementsin html5.",
+                "courseRating": 4,
+                "courseRatingValues": [4],
+                "courseStatus": "Pending",
+                "activities": [
+                    {
+                        "activityId": 1,
+                        "activityName": "Introduction to HTML5",
+                        "activityDescription": "Introduction to HTML5 explains about the history of HTML5 and the contents we are going to see.",
+                        "activityType": "pdf",
+                        "activityStatus": "Pending"
+                    },
+                    {
+                        "activityId": 2,
+                        "activityName": "Building blocks of HTML5",
+                        "activityDescription": "Explains about the html5 elements",
+                        "activityType": "html",
+                        "activityStatus": "Pending"
+                    },
+                    {
+                        "activityId": 3,
+                        "activityName": "Introduction to HTML5",
+                        "activityDescription": "Introduction to HTML5 explains about the history of HTML5 and the contents we are going to see.",
+                        "activityType": "video",
+                        "activityStatus": "Pending"
+                    },
+                    {
+                        "activityId": 4,
+                        "activityName": "Building blocks of HTML5",
+                        "activityDescription": "Explains about the html5 elements",
+                        "activityType": "pdf",
+                        "activityStatus": "Pending"
+                    }
+                ]
+            },
+            {
+                "courseId": 4,
+                "courseName": "CSS3",
+                "startDate": "15/06/2022",
+                "endDate": "29/06/2022",
+                "courseDescription": "CSS3 will explain you about the basics of css. Like font styles.",
+                "courseRating": 3,
+                "courseRatingValues": [3],
+                "courseStatus": "Pending",
+                "activities": [
+                    {
+                        "activityId": 1,
+                        "activityName": "Introduction to CSS3",
+                        "activityDescription": "Introduction to CSS3 explains about the history of CSS3 and the contents we are going to see.",
+                        "activityType": "pdf",
+                        "activityStatus": "Pending"
+                    },
+                    {
+                        "activityId": 2,
+                        "activityName": "Building blocks of CSS3",
+                        "activityDescription": "Explains about the CSS3",
+                        "activityType": "html",
+                        "activityStatus": "Pending"
+                    },
+                    {
+                        "activityId": 3,
+                        "activityName": "Introduction to CSS3",
+                        "activityDescription": "Introduction to CSS3 explains about the history of CSS3 and the contents we are going to see.",
+                        "activityType": "video",
+                        "activityStatus": "Pending"
+                    },
+                    {
+                        "activityId": 4,
+                        "activityName": "Building blocks of CSS3",
+                        "activityDescription": "Explains about the CSS3",
+                        "activityType": "pdf",
+                        "activityStatus": "Pending"
+                    }
+                ]
+            }
+        ]
+    }
+]
