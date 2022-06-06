@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { AccountService } from '../_services';
 
 @Component({
   selector: 'app-header',
@@ -9,14 +10,14 @@ import { Router } from '@angular/router';
 export class HeaderComponent implements OnInit {
 
   user;
-  constructor(private router: Router) { }
+  constructor(private router: Router, private accountService: AccountService) { }
 
   ngOnInit(): void {
     this.user = JSON.parse(localStorage.getItem('course'))[0];
   }
 
   logout() {
-    this.router.navigate(['']);
+    this.accountService.logout();
   }
 
 }

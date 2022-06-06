@@ -5,22 +5,27 @@ import { CourseActivitiesComponent } from './course-activities/course-activities
 import { CourseComponent } from './course/course.component';
 import { LoginComponent } from './login/login.component';
 
+import { AuthGuard } from './_helpers';
+
 const routes: Routes = [
   {
-    path: '',
+    path: 'login',
     component: LoginComponent
   },
   {
-    path: 'course',
-    component: CourseComponent
+    path: '',
+    component: CourseComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'course-activities/:courseId',
     component: CourseActivitiesComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'course-activities/:courseId/activity/:activityId',
-    component: ActivityComponent
+    component: ActivityComponent,
+    canActivate: [AuthGuard]
   }
 ];
 

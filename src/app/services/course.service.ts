@@ -28,4 +28,19 @@ export class CourseService {
   getUser() {
     return JSON.parse(localStorage.getItem('course'));
   }
+
+  dummyUser() {
+    const users = [];
+    const user = {
+      "firstName": "John",
+      "lastName": "Smith",
+      "username": "john",
+      "password": "smith",
+      "id": 2
+    };
+    users.push(user);
+
+    const usersKey = 'angular-10-registration-login-example-users';
+    localStorage.setItem(usersKey, JSON.stringify(users));
+  }
 }
